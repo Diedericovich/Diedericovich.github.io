@@ -1,0 +1,364 @@
+/* Html Selectors */
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  blockquote h1 {
+    font-weight: 700;
+    font-size: 900;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  }
+  
+h6 {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul p {
+  font-size:small;
+}
+
+i {
+  color: #fff;
+}
+
+a {
+  
+}
+
+div span {
+  float: right;
+  font-size:medium;
+}
+
+footer {
+  font-size: smaller;
+  font-weight: 100;
+}
+ 
+em {
+  color: rgb(175, 173, 173);
+}
+
+  /* Id Selectors */
+
+#title {
+    
+    overflow:hidden ;
+    color: #fff;
+    max-height: 800px;
+    max-width: 100%;
+    background-size:cover;
+    padding-bottom: 10%;
+}
+
+#skills  {
+  margin-bottom: 10%;
+}
+
+#portfolio  {
+  margin-bottom: 10%;
+  
+}
+
+#testimonials {
+  margin-bottom: 10%;
+}
+
+#contact {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+}
+
+#footer {
+  background-color:  rgba(0, 0, 0, 0.452);
+ padding: 2%
+ ;
+}
+
+/* Class Selectors */
+
+.headtitle {
+  filter: grayscale(55%);
+  padding: 1%;
+}
+
+.blockquote {
+  padding-top: 39%;
+}
+
+.quotepart1 {
+  padding-right: 25%;
+}
+
+.quotepart3{
+  padding-left: 20%;
+}
+
+  .skills {
+    text-align: start;
+    padding: 2%;
+  }
+  
+.fa-handshake {
+    color: rgba(252, 248, 248, 0.986);
+    background-color: rgba(180, 84, 104, 0);
+    font-size: 4rem;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 20%;
+}
+
+.fa-handshake:hover {
+  color: rgb(194, 138, 18);
+}
+
+.nav-link {
+  color: rgb(194, 138, 18);
+  font-size: larger;
+  font-weight: 1000;
+  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+}
+
+.aboutme {
+  padding: 10%;
+  margin: 0%;
+}
+
+.link {
+  color: rgb(175, 173, 173);
+}
+
+.title-aboutme  {
+  margin-bottom: 5%; 
+  font-size: xx-large; 
+  font-weight: 600;
+  color: rgb(194, 138, 18);
+}
+
+.figure-img {
+max-width: 30em;
+max-height: 40em;
+}
+
+.content {
+  margin-top: 7%;
+  font-weight:300;
+  color: rgb(175, 173, 173);
+  padding-right: 10%;
+}
+
+.button-contactme, .button-downloadcv {
+  padding: 0.5%;
+  color: rgb(173, 125, 36);
+}
+
+.social-icon {
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon:hover {
+  background-color: rgb(173, 125, 36);
+}
+
+.title-skills {
+  font-weight: 600;
+  color: rgb(173, 125, 36);
+  margin-bottom: 15%;
+}
+
+.title-skills-progress {
+  font-weight: 600;
+  color: rgb(173, 125, 36);
+  margin-bottom: 10%;
+}
+
+.xp {
+  font-size: small;
+}
+
+.progress {
+  height: 10px;
+  font-size: 8;
+  background-color: lightslategray;
+  margin-bottom: 3.5%;
+}
+
+.progress-bar {
+  background-color: rgb(194, 138, 18);
+}
+
+.title-portfolio {
+  color: rgb(194, 138, 18);
+  font-size: xx-large; 
+  font-weight: 600;
+  margin-bottom: 7%;
+}
+
+.screenshot {
+ padding: 0%;
+ width: 100%;
+ height:100%;
+ border-radius: 15px;
+ margin-bottom: 10%;
+}
+
+/* .screenshot:hover {
+  opacity: 100%;
+} */
+
+	
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 26em;
+	height: 16em;
+  border-style: none;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 10%;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background: rgb(194, 138, 18);
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 15px;
+}
+
+.project-icon {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+}
+	
+/* .zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+ /* margin: 0 auto;
+} */
+
+
+/* .zoom:hover {
+  transform: scale(1.5); 
+}  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ 
+
+
+
+.title-testimonials {
+  color: rgb(194, 138, 18);
+  font-size:xx-large;
+  margin-bottom: 7%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 400px;
+  margin: 30%, 0;
+  display:flex;
+}
+
+.testimonial-text {
+  padding-bottom: 0%;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.testimonial-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  padding: 1%;
+}
+
+.title-contact  {
+  color: rgb(194, 138, 18);
+  font-size:xx-large;
+  margin-bottom: 5%;  
+}
+
+.controls {
+  margin-bottom: 6%;
+}
+
+.box {
+  margin: 1.5em;
+}
+
+.form {
+  width: 50em;
+}
+
+.submit {
+  margin-top: 2%;
+  background-color: rgb(204, 140, 2);
+  border: none;
+}
+
+.contact-icon {
+  color: rgb(194, 138, 18);
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.452);
+  border-width: 0.0001px;
+  border-style: solid;
+  border-color:  rgb(85, 84, 84);
+  
+  
+}
+
+
