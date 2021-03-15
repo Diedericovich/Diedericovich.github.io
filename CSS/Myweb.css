@@ -30,10 +30,6 @@ i {
   color: #fff;
 }
 
-a {
-  
-}
-
 div span {
   float: right;
   font-size:medium;
@@ -49,6 +45,29 @@ em {
 }
 
   /* Id Selectors */
+
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:  rgb(173, 125, 36);
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+    width: 3em;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
 
 #title {
     
@@ -119,7 +138,8 @@ em {
 }
 
 .fa-handshake:hover {
-  color: rgb(194, 138, 18);
+  color:rgb(173, 125, 36);
+  background-color: #fff;
 }
 
 .nav-link {
@@ -143,15 +163,19 @@ em {
   font-size: xx-large; 
   font-weight: 600;
   color: rgb(194, 138, 18);
+  
 }
 
 .figure-img {
-max-width: 30em;
-max-height: 40em;
+margin-top: 20%;
+max-width: 25em;
+max-height: 30em;
+border-radius: 5%;
 }
 
+
 .content {
-  margin-top: 7%;
+  margin-top: 5%;
   font-weight:300;
   color: rgb(175, 173, 173);
   padding-right: 10%;
@@ -275,27 +299,18 @@ max-height: 40em;
   border-radius: 15px;
 }
 
-.project-icon {
-  padding-top: 0%;
-  padding-bottom: 0%;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-right: 10px;
+.project-icon:hover {
+ filter:opacity(50%);
 }
+
+.img-thumbnail {
+  width: 6em;
+  height: 3em;
+  border-style: none;
+  border-width: 0px;
+}
+
 	
-/* .zoom {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
- /* margin: 0 auto;
-} */
-
-
-/* .zoom:hover {
-  transform: scale(1.5); 
-}  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
- 
-
-
 
 .title-testimonials {
   color: rgb(194, 138, 18);

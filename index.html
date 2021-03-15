@@ -16,8 +16,10 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/ec7d47053f.js" crossorigin="anonymous"></script>
 
@@ -90,7 +92,7 @@
             </div>
             <div class="row justify-content-end quotepart3">
               <div class="col">
-                <h1> Followed the dream.</h1>
+                <h1> Hunting the dream.</h1>
               </div>
             </div>
           </blockquote>
@@ -104,32 +106,32 @@
       <div class="row">
         <div class="col-lg-5">
           <figure class="figure">
-            <img src="Images/Vypco/Closeup2zwartwit.jpg" class="figure-img" alt="Died">
+            <img src="Images/Vypco/Closeup2Smallzwartwit.jpg" class="figure-img" alt="Died">
           </figure>
         </div>
         <div class="col-lg-7">
           <div class="content text-start">
             <h4 class="title-aboutme">About me</h4>
-            <p>Ken je dat gevoel als er iets geweldigs in je leven verandert? Je ontmoet dé liefde van je leven, je
-              krijgt je eerste kind of…. Je ontdekt dat hét kan: je werk zó graag doen dat je niet het gevoel hebt dat
-              je werkt!
-              Na vele jaren als verzekeringsconsultant in een <a class="link"
+            <p>
+              Na meer dan 15 jaar als verzekeringsconsultant in een <a class="link"
                 href="https://www.facebook.com/Vypco">sympathieke KMO</a> gewerkt te hebben, was het tijd voor iets
-              anders. Ik heb mijn droom gevolgd en nú wil ik van mijn passie mijn beroep maken!
+              anders. Na een grondige heroriëntatie besloot ik me volledig te herscholen tot software developer.
+              Een schot in de roos blijkt nu, want deze job combineert creativiteit met sterke analytische skills.
+              Waar ik al jaren van droom, wordt werkelijkheid: ik ga van mijn passie mijn beroep maken!
             </p>
             <p>
-              Gedurende 15 jaren heb ik met hart en ziel voor klanten en samen met collega’s gewerkt. Met circa 2000+
-              klanten en 10+ collega’s heb ik redelijk wat soft skills opgebouwd. Door me constant bij te scholen ben ik
-              uitgegroeid tot specialist in vele gebieden.
+              Samen met m’n collega’s heb ik me met hart en ziel voor klanten ingezet.
+              Met circa 2000+ klanten en 10+ collega’s heb ik redelijk wat soft skills opgebouwd.
+              Door me constant bij te scholen ben ik uitgegroeid tot specialist in vele gebieden.
             </p>
             <p>
-              Nu wil ik diezelfde energie en goesting gebruiken om een senior developer te worden!
+              Nu wil ik diezelfde energie en <i>drive</i> gebruiken om een senior developer te worden!
             </p>
             <p>
-              Tegen begin juli 2021 ben ik klaar om erin te vliegen!
+              Tegen begin juli 2021 ben ik volledig klaar om erin te vliegen!
             </p>
             <p>
-              Benieuwd om samen te werken?
+              Share the feeling? Let's get in touch!
             </p>
             <div class="d-flex flex-row content justify-content-start">
               <div class="social-icon">
@@ -277,8 +279,8 @@
               <span>In Progress</span>
             </h6>
             <div class="progress" style="height: 4px;">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0"
-                aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 15%"
+                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -302,43 +304,112 @@
         </h4>
       </div>
       <div class="row content justify-content-between">
-        <!--"Computer Shop Form"-->
+        <!--"Damp"-->
         <div class="col-lg-3 col-md-6">
-          <div class="flip-box zoom">
+          <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                  <img src="Images/Portfolio/Webshop/shop.png" class="screenshot" alt="Webshop">
+                <img src="Images/Portfolio/Damp/1.png" class="screenshot" alt="Damp">
               </div>
               <div class="flip-box-back">
-                  <h2>PC Webshop</h2>
-                <p>Project Module C# Advanced</p>
+                <h2>
+                  Damp</h2>
+                <p>Project Module 1 C# Basic</p>
+                <p>Training in Data Management <br>
+                  CRUD - DRY - Clean Code</p>
+                <div class="project-icon">
+                  <a href="https://github.com/Diedericovich//ProjectDMJ" class="project-icon">
+                    <i class="fab fa-github fa-3x"></i></a>
+                </div>
+                <!-- Images used to open the lightbox -->
+                <div class="row">
+                  <div class="column">
+                    <img src="img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                  </div>
+                </div>
+
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                  <span class="close cursor" onclick="closeModal()">&times;</span>
+                  <div class="modal-content">
+
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 4</div>
+                      <img src="img1_wide.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 4</div>
+                      <img src="img2_wide.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 4</div>
+                      <img src="img3_wide.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 4</div>
+                      <img src="img4_wide.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                      <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail image controls -->
+                    <div class="column">
+                      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+                    </div>
+
+                    <div class="column">
+                      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+
+                    <div class="column">
+                      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+                    </div>
+
+                    <div class="column">
+                      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--"Computer Shop Form"-->
+        <div class="col-lg-3 col-md-6">
+          <div class="flip-box ">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="Images/Portfolio/Webshop/shop.png" class="screenshot" alt="Webshop">
+              </div>
+              <div class="flip-box-back">
+                <h2>PC Webshop</h2>
+                <p>Project Module 2 C# Advanced</p>
                 <p>Training in Inheritance, Polymorphism, composition and winforms</p>
                 <div class="project-icon">
                   <a href="https://github.com/Diedericovich/ComputerShopForm" class="icon">
                     <i class="fab fa-github fa-3x"></i>
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--"Damp"-->
-        <div class="col-lg-3 col-md-6">
-          <div class="flip-box ">
-            <div class="flip-box-inner">
-              <div class="flip-box-front">
-                <img src="Images/Portfolio/Damp/1.png" class="screenshot" alt="Damp">
-              </div>
-              <div class="flip-box-back">
-                <h2>Damp</h2>
-                <p>Project Module C# Basic</p>
-                <p>Training in Data Management <br> 
-                CRUD - DRY - Clean Code</p>
-                  <div class="project-icon">
-                    <a href="https://github.com/Diedericovich//ProjectDMJ" class="icon">
-                      <i class="fab fa-github fa-3x"></i>
-                    </a>
-                  </div>
               </div>
             </div>
           </div>
@@ -352,13 +423,13 @@
               </div>
               <div class="flip-box-back">
                 <h2>Website Jobdag</h2>
-                <p>Project Module Webdevelopment</p>
+                <p>Project Module 3 Webdevelopment</p>
                 <p>Training in HTML5, CSS3, Javascript and Bootstrap</p>
-                  <div class="project-icon">
-                    <a href="https://github.com/Diedericovich/dotnet-jobday" class="icon">
-                      <i class="fab fa-github fa-3x"></i>
-                    </a>
-                  </div>
+                <div class="project-icon">
+                  <a href="https://github.com/Diedericovich/dotnet-jobday" class="icon">
+                    <i class="fab fa-github fa-3x"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -474,7 +545,8 @@
             </div>
             <div class="row box g-3 justify-content-center">
               <div class="col-12">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message*" aria-label="Your Message"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message*"
+                  aria-label="Your Message"></textarea>
               </div>
             </div>
             <div class="row box justify-content-start">
@@ -483,40 +555,39 @@
               </div>
             </div>
           </form>
-
         </div>
         <div class="contactinfo">
-          <div class="row justify-content-center">
-            <div class="col-md-3">
-              <div class="item mb-sm50">
-                <i class="contact-icon fas fa-mobile-alt fa-5x"></i>
-                <div class="content">
-                  <h6>Phone</h6>
-                  <p>+32 476 689 639</p>
+            <div class="row justify-content-center">
+              <div class="col-md-3">
+                <div class="item mb-sm50">
+                  <i class="contact-icon fas fa-mobile-alt fa-5x"></i>
+                  <div class="content">
+                    <h6>Phone</h6>
+                    <p>+32 476 689 639</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="item mb-sm50">
-                <i class="contact-icon far fa-envelope fa-5x"></i>
-                <div class="content">
-                  <h6>Email</h6>
-                  <p>diederik.van.yperzele@telenet.be</p>
+              <div class="col-md-3">
+                <div class="item mb-sm50">
+                  <i class="contact-icon far fa-envelope fa-5x"></i>
+                  <div class="content">
+                    <h6>Email</h6>
+                    <p>diederik.van.yperzele@telenet.be</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="item mb-sm50">
-                <i class="contact-icon fas fa-map-marker-alt fa-5x"></i>
-                <div class="content">
-                  <h6>Address</h6>
-                  <p>Houtstraat 64, 9070 Destelbergen</p>
+              <div class="col-md-3">
+                <div class="item mb-sm50">
+                  <i class="contact-icon fas fa-map-marker-alt fa-5x"></i>
+                  <div class="content">
+                    <h6>Address</h6>
+                    <p>Houtstraat 64, 9070 Destelbergen</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
   </section>
 
   <!--links, modals of andere boodschappen vanuit elk van onderstaande onderwerpen-->
@@ -528,15 +599,26 @@
         <h6><i class="far fa-copyright"></i> 2021 - Diederik Van Yperzele</h6>
       </div>
       <div class="row justify-content-md-center">
-        <div class="col-md-auto"><p>Disclaimer </p></div>
-        <div class="col-md-auto"><p>Voorwaarden</p></div>
-        <div class="col-md-auto"><p>Privacy</p></div>
-        <div class="col-md-auto"><p>Cookies</p></div>
+        <div class="col-md-auto">
+          <p>Disclaimer </p>
+        </div>
+        <div class="col-md-auto">
+          <p>Voorwaarden</p>
+        </div>
+        <div class="col-md-auto">
+          <p>Privacy</p>
+        </div>
+        <div class="col-md-auto">
+          <p>Cookies</p>
+        </div>
       </div>
     </div>
-    
+
   </footer>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
   <script src="JS/Myweb.js"></script>
 
