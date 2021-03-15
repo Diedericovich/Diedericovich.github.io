@@ -1,4 +1,4 @@
-#My personal website with portfolio#
+#My personal website with portfolio
 
 
 My story, skills and more pressed in one webpage.
